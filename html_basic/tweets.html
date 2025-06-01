@@ -3,22 +3,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Tweets</title>
+  <title>Tweets Page</title>
 </head>
 <body>
 
-  <h1>Check Out My Tweet</h1>
+  <header>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tweets.html">Tweets</a></li>
+    </ul>
+  </header>
 
-  <blockquote class="twitter-tweet">
-    <p lang="en" dir="ltr">
-      HTML is the skeleton of the web. Learn it well, and you’ll build anything you imagine! 🚀
-    </p>
-    &mdash; YourName (@yourhandle)
-    <a href="https://twitter.com/twitter/status/1647999179890063361">April 17, 2023</a>
-  </blockquote> 
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <main>
+    <article>
+      <h1>My Tweets</h1>
+      <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">
+          HTML is the foundation of the web. Learn it, and you'll build amazing things!
+        </p>
+        &mdash; Example (@example)
+        <a href="https://twitter.com/twitter/status/1647999179890063361">April 17, 2023</a>
+      </blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </article>
 
-  <p><a href="index.html">← Back to Homepage</a></p>
+    <aside>
+      <p>placeholder to add comment thread later</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Made by ANAS - <a href="https://example.com" target="_blank">here</a>.</p>
+  </footer>
 
 </body>
 </html>
